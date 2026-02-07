@@ -205,3 +205,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+assignment_01_output/data/.DS_Store
+example_EM_Image.tif
