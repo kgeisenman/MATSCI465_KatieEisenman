@@ -1,0 +1,5 @@
+# MATSCI465_KatieEisenman
+
+When 4DSTEM data is collected, the entire diffraction pattern is collected at every scan position. This enables us to go back and recalculate the experiment as if we had a different detector than the actual probe used in the experiment. These detectors are defined as "masks" over the diffraction patterns, where we only look at certain areas of each diffraction pattern. We can create these masks using software, then reprocess the data and essentially "rerun" the experiment however we want. For example, as I demonstrated in the assignment, we can take one set of data and visualize it as both Bright Field and Annular Dark Field images.
+
+The total range in z-contrast in the ADF image is slightly less than the total range of diffraction contrast of the BF image. The ADF image shows clearer contrasting bands that are the intersections between Si and Ge. The BF image diffraction contrast shows variations in the diffraction conditions of the crystal, which is less stark than the z-contrast in ADF.
