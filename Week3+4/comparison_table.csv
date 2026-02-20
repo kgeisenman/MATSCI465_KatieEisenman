@@ -1,0 +1,7 @@
+Method,Metrics (Accuracy/F1/IoU),Runtime,Labels Needed,Interpretability
+Watershed,"IoU=1.00, Dice=1.00",0.02860012510791421,None,High (transparent pipeline)
+SVM,F1=0.99,0.9345306248869747,Region labels (≥50 total),Medium–High (feature-based)
+Random Forest, F1=1.00,0.4762668330222368,Region labels (≥50 total),High (feature importances)
+k-Means,Silhouette=0.31 (k=7),7.528226000024006,None (unsupervised),Medium (cluster centers)
+CNN, F1=0.75,292.3727397909388,"Patch labels (hundreds+), aug.",Lower (saliency/Grad-CAM)
+U-Net,"IoU=0.42, Dice=0.59",30.0161131110508,"Pixel masks (15–20 imgs), aug.",Medium (overlays/feature maps)
